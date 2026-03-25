@@ -27,8 +27,9 @@ Root node experiment: *root-mir* or *root-pure*
 Branch-and-cut experiment: *mir* or *pure*
 
 For both experiments we used seeds 0-9.
+To write the results into a file add "+outFile path/to/file"
 
 Example:
 ```markdown
-$ ./go ../../instances/pure_integer/irp.mps +useCutting +settings pure-int +seed 0
+$ ./go ../../instances/pure_integer/irp.mps +useCutting +settings pure-int +seed 0 +outFile results.csv
 ```
